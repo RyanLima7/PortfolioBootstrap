@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ryan Lima - Portfólio</title>
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- POPPINS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- ICONES -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- SEU CSS (CAMINHO CORRETO) -->
+  <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">Ryan Lima</a>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="hero" class="hero d-flex align-items-center">
+    <div class="container text-center">
+      <img src="/src/assets/images/myphoto.png" class="hero-photo">
+      <h1>Ryan Lima Ferreira</h1>
+      <p class="subtitle"> Front-End • UI/UX Design • Java Básico</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary me-2" href="#projetos">Ver projetos</a>
+        <a class="btn btn-outline" href="#contato">Contato</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2 class="section-title">Sobre</h2>
+
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-5 text-center d-md-block d-none">
+          <img src="/src/assets/images/myphoto.png" class="about-photo">
+        </div>
+
+        <div class="col-md-7">
+          <p class="sobre-text">
+            Crio interfaces limpas, com atenção à clareza e à organização.
+            <br>Aprendo e pratico UI/UX aplicando conceitos em projetos simples.
+          </p>
+
+          <div class="sobre-infos">
+            <div>
+              <strong>Habilidades</strong>
+              <p class="info-list">
+                HTML <br>
+                CSS <br>
+                Figma <br>
+                Java Básico
+              </p>
+            </div>
+
+            <div>
+              <strong>Formação</strong>
+              <p class="info-list">
+                SENAI — Desenvolvimento de Sistemas <br>
+                2025 - 2026
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projetos" class="section">
+    <div class="container">
+      <h2 class="section-title">Projetos</h2>
+
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card project-card h-100">
+            <div class="card-body">
+                <img src="/src/assets/images/home.png" alt="">
+              <h3 class="card-title">AjudeAqui</h3>
+              
+              <p class="card-text">
+                Plataforma acadêmica criada para conectar voluntários e instituições.
+              </p>
+              <a href="https://github.com/AjudeAqui-Organization/AjudeAqui.git" class="btn btn-primary w-100 mt-2">
+                Ver projeto
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card project-card h-100">
+            <div class="card-body">
+              <img src="/src/assets/images/login.png" alt="">
+              <h3 class="card-title">Página de Login</h3>
+              <p class="card-text">
+                Página de Login simples e responsiva usando HTML e CSS.
+              </p>
+              <a href="https://github.com/RyanLima7/auth-pages.git" class="btn btn-primary w-100 mt-2">
+                Ver projeto
+              </a>
+            </div>
+          </article>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="text-center">
+    <h2>Contato</h2>
+
+    <div class="d-flex justify-content-center gap-4 mt-4">
+      <a href="mailto:ry90ryan@gmail.com" class="contact-link">
+        <i class="bi bi-envelope-fill"></i>
+        
+      </a>
+
+      <a href="https://www.linkedin.com/in/ryan-lima-ferreira-705149317/" target="_blank" class="contact-link">
+        <i class="bi bi-linkedin"></i>
+        
+      </a>
+
+      <a href="https://github.com/ryanlima01" target="_blank" class="contact-link">
+        <i class="bi bi-github"></i>
+        
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <small>© 2025 Ryan Lima </small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
