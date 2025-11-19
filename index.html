@@ -21,23 +21,57 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#hero">Ryan Lima</a>
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
 
-      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#hero">
+      Ryan Lima
+    </a>
 
-      <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-        </ul>
-      </div>
+    <!-- SELETOR DE IDIOMA AO LADO DO NOME -->
+    <div class="dropdown ms-3">
+      <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" data-bs-toggle="dropdown">
+        <img src="https://flagcdn.com/w20/br.png" width="20">
+      </a>
+
+      <ul class="dropdown-menu">
+
+  <li>
+    <a class="dropdown-item d-flex align-items-center gap-2" href="index.html">
+      <img src="https://flagcdn.com/w20/br.png" width="20"> Português
+    </a>
+  </li>
+   
+  <li>
+    <a class="dropdown-item d-flex align-items-center gap-2" href="index-en.html">
+      <img src="https://flagcdn.com/w20/us.png" width="20"> English
+    </a>
+    </li>
+
+  <li>
+    <a class="dropdown-item d-flex align-items-center gap-2" href="index-es.html">
+      <img src="https://flagcdn.com/w20/es.png" width="20"> Español
+    </a>
+  </li>
+
+</ul>
     </div>
-  </nav>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
 
   <header id="hero" class="hero d-flex align-items-center">
     <div class="container text-center">
@@ -57,7 +91,7 @@
       <h2 class="section-title">Sobre</h2>
 
       <div class="row align-items-center justify-content-center">
-        
+
 
         <div class="col-md-7">
           <p class="sobre-text row align-items-center justify-content-center">
@@ -65,13 +99,14 @@
             <br>Aprendo e pratico UI/UX aplicando conceitos em projetos simples.
           </p>
 
-          <div class="sobre-infos ">
+          <div class="sobre-infos">
+
             <div>
               <strong>Habilidades</strong>
               <p class="info-list">
-                HTML <br>
-                CSS <br>
-                Figma <br>
+                HTML<br>
+                CSS<br>
+                Figma<br>
                 Java Básico
               </p>
             </div>
@@ -79,11 +114,13 @@
             <div>
               <strong>Formação</strong>
               <p class="info-list">
-                SENAI — Desenvolvimento de Sistemas <br>
-                2025 - 2026
+                SENAI — Desenvolvimento de Sistemas<br>
+                Ensino Médio - E.E Alberto Conte 
               </p>
             </div>
+
           </div>
+
 
         </div>
       </div>
@@ -95,15 +132,15 @@
     <div class="container ">
       <h2 class="section-title2">Projetos</h2>
 
-    <div class="row g-4 justify-content-center">
+      <div class="row g-4 justify-content-center">
 
 
         <div class="col-md-6 col-lg-4">
           <article class="card project-card h-100 ">
             <div class="card-body">
-                <img src="/src/assets/images/home.png" alt="">
+              <img src="/src/assets/images/home.png" alt="">
               <h3 class="card-title">AjudeAqui</h3>
-              
+
               <p class="card-text">
                 Plataforma acadêmica criada para conectar voluntários e instituições.
               </p>
@@ -140,20 +177,22 @@
     <div class="d-flex justify-content-center gap-4 mt-4">
       <a href="mailto:ry90ryan@gmail.com" class="contact-link">
         <i class="bi bi-envelope-fill"></i>
-        
+
       </a>
 
       <a href="https://www.linkedin.com/in/ryan-lima-ferreira-705149317/" target="_blank" class="contact-link">
         <i class="bi bi-linkedin"></i>
-        
+
       </a>
 
-      <a href="https://github.com/ryanlima01" target="_blank" class="contact-link">
+      <a href="https://github.com/RyanLima7" target="_blank" class="contact-link">
         <i class="bi bi-github"></i>
-        
+
       </a>
     </div>
   </section>
+
+  
 
   <footer class="footer">
     <div class="container text-center">
@@ -164,4 +203,5 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
