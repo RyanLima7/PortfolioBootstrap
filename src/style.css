@@ -68,13 +68,28 @@ body {
   padding: 12px 30px;
   margin-top: 45px;
   border-radius: 10px;
+  background: linear-gradient(180deg, #2c7af8 0%, #003fa3 100%);
+}
+.btn-primary:hover {
+
+   background: linear-gradient(180deg, #0062ff 0%, #03204e 100%);
+  transform: translateY(-2px);
+    transition: .25s;
+}
+
+.btn-outline:hover {
+
+   background: linear-gradient(180deg, rgb(1, 21, 80) 0%, #000000 120%);
+  transform: translateY(-2px);
+    transition: .25s;
+
 }
 .btn-outline {
   padding: 12px 30px;
   border-radius: 10px;
   color: #ccc;
   margin-top: 45px;
-  background: #0b0230;
+   background: linear-gradient(180deg, #030c2c 0%, #0529a149 100%);
   transition: .25s;
 }
 
@@ -97,7 +112,7 @@ body {
   margin-bottom: 60px;
   margin-top: 80px;
   color: #cfd8ff;
-  text-shadow: 0 1px 4px rgba(0,123,255,0.15);
+  text-shadow: 0 1px 4px rgba(0, 123, 255, 0.034);
 }
 
 /* SOBRE */
@@ -107,12 +122,26 @@ body {
   line-height: 1.6;
   color: #e0e0e0;
 }
+
+.sobre-text {
+  text-align: center;
+}
+
+
+.sobre-infos {
+  justify-content: center;
+  text-align: center;
+}
+
+
 .sobre-infos {
   margin-top: 30px;
   display: flex;
-  gap: 40px;
+  gap: 150px;
   flex-wrap: wrap;
 }
+
+
 .info-list {
   margin-top: 8px;
   opacity: .75;
@@ -136,7 +165,7 @@ body {
 /* CARDS */
 
 .card {
-  background: #151515;
+  background: linear-gradient(180deg, #080e24 0%, #0b0b0b 90%);
   border-radius: 16px;
   height: 100%;
   border: 1px solid #1f1f1f;
@@ -149,14 +178,7 @@ body {
 .card-body {
   padding: 23px;
   text-align: center;
-  
-}
-.project-card {
-  box-shadow: 0 0 15px  rgb(16, 2, 87);
-  
 
-
-   
 }
 
 .card-body img{
@@ -167,7 +189,7 @@ body {
 
 
 .card:hover {
-  background: #0b013b;
+  background: linear-gradient(180deg, #030c2c 0%, #0529a1b6 100%);
   transform: translateY(-6px);
   box-shadow: 0 0 15px rgba(255,255,255,0.03);
 }
@@ -197,6 +219,12 @@ body {
   color: #e0e0e0;
 }
 
+#contato {
+  margin-top: 100px;
+  padding-top: 40px;
+}
+
+
 /* FOOTER */
 .footer {
   background: transparent;
@@ -210,7 +238,7 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  background: #2c7af8;
+ background: linear-gradient(180deg, #2c7af8 0%, #003fa3 100%);
   padding: 12px 20px;
   border-radius: 10px;
   font-weight: 600;
@@ -220,8 +248,24 @@ body {
 }
 .contact-link:hover {
   background: #04367c;
+   background: linear-gradient(180deg, rgb(1, 21, 80) 0%, #023b96 120%);
   transform: translateY(-2px);
 }
 .contact-link i {
   font-size: 1.2rem;
 }
+
+.navbar .dropdown-menu {
+  background: #0b1437;
+  border: 1px solid #1d1d1d;
+}
+
+.dropdown-item {
+  color: #e5e5e5;
+}
+
+.dropdown-item:hover {
+  background: #1a1f3d;
+  color: #fff;
+}
+
